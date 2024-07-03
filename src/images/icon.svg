@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="keywords" content="Digital marketing consulting company, Digital Marketing Consulting services in Hyderabad, web development company in Hyderabad, best digital marketing agency in India" />
+<meta property="og:type" content="Website" />
+<meta property="og:image" content="../images/Inovies-Logo.webp" />
+<meta name="geo.region" content="IN" />
+<meta name="geo.placename" content="Hyderabad | India" />
+<meta name="geo.position" content="17.446396; 78.381055" />
+<meta name="ICBM" content="17.446396, 78.381055" />
+<meta name="theme-color" content="#2bbed2" />
+<link rel="apple-touch-icon" href="../images/logo-new-1.webp" />
+<link rel="icon" href="../images/logo-new-1.webp" sizes="144x144" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap" media="none" onload="if(media!='all')media='all'">
+<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+<link rel="icon" type="image/svg" href="../images/inovies-fav-icon.svg" />
+<link rel="pingback" href="../sitemap.xml" />
+<link href="../css/style-1.css" type="text/css" rel="stylesheet" media="none" onload="if(media!='all')media='all'" />
+<link rel="stylesheet" href="/css/bootstrap.css" media="print" onload="this.media='all'">
+<link href="../css/carousel.css" type="text/css" rel="stylesheet" media="none" onload="if(media!='all')media='all'" />
+<link href="../css/responsive.css" type="text/css" rel="stylesheet" media="none" onload="if(media!='all')media='all'" />
+<style type="text/css">
+   
+    #topnav {
+        display: block;
+        float: right;
+    }
+    #topnav ul {
+        list-style: none;
+    }
+    #topnav ul li {
+        float: left;
+        font-weight: bold;
+    }
+    #topnav ul li .sicon {
+        display: block;
+        float: left;
+        font-size: 1.2em;
+        line-height: 80px;
+        padding: 0 8px;
+        margin-right: 8px;
+        color: #363a3c;
+        text-decoration: none;
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+    }
+    #topnav ul li .sicon:hover {
+        color: #458ba7;
+    }
+  
+    .m-r-30 {
+        margin-bottom: 20px;
+        min-height: 110px;
+    }
+    
+    @media only screen and (min-width: 320px) and (max-width: 960px) {
+        #mobilemenu {
+            display: block !important;
+        }
+        .navbar-collapse.collapse {
+            display: none !important;
+        }
+        #defaultmenu {
+            display: none !important;
+        }
+    }
+   /* @media only screen and (max-width: 768px){
+        #showmenu.menuclosebtn{
+    margin-left: 35px;
+    margin-right: 0!important;
+    position: fixed!important;
+    left: auto!important;
+    right: 35% !important;}
+        }*/
+    @media only screen and (min-width: 961px) and (max-width: 2900px) {
+        #mobilemenu,
+        #showmenu { 
+            display: none !important;
+        }
+        #defaultmenu {
+            display: block !important;
+        }
+    }
+    #mobilemenu {
+        position: fixed;
+        background-color: #121b21;
+        height: 100%;
+        z-index: 10;
+        width: 280px;
+        color: #bbb;
+        top: 0;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        opacity: 1;
+    }
+    #mobilemenu ul {
+        list-style: none;
+        margin-top: 0;
+        padding: 0
+    }
+    #mobilemenu ul li {
+        border-bottom: 1px solid #2a2a2a;
+    }
+    #mobilemenu>ul>li>a {
+        border-left: 4px solid #222;
+    }
+    #mobilemenu ul li a {
+        color: inherit;
+        font-size: 16px;
+        display: block;
+        padding: 13px 0 13px 12px;
+        text-decoration: none;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    #mobilemenu ul a i {
+        margin-right: 10px;
+        font-size: 18px;
+        margin-top: 3px;
+        color: #3ecadd;
+        width: 20px;
+    }
+    #mobilemenu ul a i[class*='fa-caret'] {
+        float: right;
+    }
+    #mobilemenu ul a:hover,
+    #mobilemenu ul a.active {
+        background-color: #283136;
+        border-left-color: #00afc4;
+        color: #00afc4;
+    }
+    #mobilemenu ul a:hover i:first-child {
+        color: #3ecadd;
+    }
+    #mobilemenu ul li a.active+ul {
+        display: block
+    }
+    #mobilemenu ul li ul {
+        margin-top: 0;
+        display: none;
+    }
+    #mobilemenu ul li ul li {
+        border-bottom: none;
+    }
+    #mobilemenu ul li ul li a {
+        padding-left: 30px;
+    }
+    #mobilemenu ul li ul li a:hover {
+        background-color: #1A1A1A;
+    }
+    .mobilenavright {
+        right: -280px;
+    }
+    .show {
+        right: 0;
+    }
+    #showmenu {
+        margin-right: 15px;
+        right: 0;
+        position: absolute;
+        top: 20px;
+        padding: 0;
+        font-size: 1.3em;
+        color: #FFCC33;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    .gsc-input-box {
+        background: rgba(44, 190, 210, 0.8) !important;
+        border: none !important;
+        position: fixed;
+        z-index: 999999 !important;
+        margin-top: -7px;
+        height:50px;
+        box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        -o-box-shadow: none !important;
+            color: #fff !important;
+    padding: 9px 10px !important;
+    }
+    .gsst_a .gscb_a {
+    color: #fff !important;
+}
+    #gs_tti50 {
+        background-color: transparent !important;
+        border: none !important;
+    }
+    #change_icon {
+        font-size: 28px;
+    }
+    #showmenu i.fa-close {
+        font-size: 39px;
+        position: relative;
+        z-index: 9999;
+        font-weight: normal!important;
+        margin-right: -9px;
+        margin-top: -23px;
+    }
+    .menuclosebtn {
+        margin-left: 9px;
+        margin-right: 0!important;
+        position: fixed!important;
+        left: 0!important;
+        right: auto!important;
+    }
+</style>
+<header class><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<nav class="navbar navbar-fixed-top navbar-bootsnipp animate navbar-default w3_megamenu" role="navigation">
+<div class="navbar-header">
+<a href="https://www.inovies.com" title="Web Design and Development Company" class="logo navbar-brand">
+<img alt="Inovies Logo - Web Design Company" src="/images/logo.svg" width="185" height="69.23">
+</a>
+</div>
+<a href="#" id="showmenu"> <i class="fa fa-align-justify" id="change_icon"></i> </a>
+<div id="mobilemenu" class="mobilenavright">
+<ul>
+<li> <a href="../web-design/" class=" slide08"> Design <i class="fa fa-caret-down"></i></a>
+<ul>
+<li><a href="../web-design/website-design-packages" title="website design packages"> Custom Website Design Packages</a></li>
+<li><a href="../web-design/wordpress-website-packages" title="Wordpress Website Packages">Wordpress Website Packages</a></li>
+<li><a href="../web-design/web-application-design-company" title="web designing company in hyderabad">Web Application Design</a></li>
+<li><a href="../web-design/website-design-company" title="website designing company in hyderabad">Website Designing</a></li>
+<li><a href="../web-design/ecommerce-website-design-company" title="Ecommerce Website Design Company">Ecommerce Website Design</a></li>
+<li><a href="../web-design/logo-design-company" title="Logo Design Services">Logo Design</a></li>
+<li><a href="../web-design/responsive-web-design-company" title="Responsive Web Design Agency">Responsive Web Design</a></li>
+<li><a href="../web-design/website-redesign-company" title="Website Redesign Services">Website Redesign</a></li>
+<li><a href="../web-design/landing-page-company" title="Landing Page Design Services">Landing Page Design</a></li>
+<li><a href="../web-design/graphic-designer" title="Hire Our Graphic designer ">Hire Graphic designer</a></li>
+<li><a href="../web-design/website-designers" title="Hire Our UI Developer">Hire UI Developer</a></li>
+</ul>
+</li>
+<li> <a href="../web-development/" class="slide08"> Development <i class="fa fa-caret-down"></i></a>
+<ul>
+<li><a href="../web-development/ecommerce-development-company" title="Ecommerce Development Company">Ecommerce Development</a></li>
+<li><a href="../web-development/cms-development-company" title="content management system">CMS development</a></li>
+<li><a href="../web-development/web-development-outsourcing-company" title="Web development outsourcing company">Web development outsourcing</a></li>
+<li><a href="../web-development/android-mobile-app-development-company" title="Android Mobile Application Development Company">Android Mobile App Development</a></li>
+<li><a href="../web-development/ios-mobile-app-development-company" title="IOS Mobile Application Development Company">IOS Mobile App Development</a></li>
+<li><a href="../web-development/dynamic-app-development-company" title="Dynamic Application Development Company">Dynamic App Development</a></li>
+<li><a href="../web-development/dynamic-website-development-company" title="website Development agency">Dynamic website Development</a></li>
+<li><a href="../web-development/core-php-app-developement-company" title="Core Php Application Developement">Core Php App Developement</a></li>
+<li><a href="../web-development/hire-php-programmer" title="Hire our Php Programmer">Hire Php Programmer</a></li>
+<li><a href="../web-development/hire-database-designers" title="Hire Our Database Designer">Hire Database Designer</a></li>
+</ul>
+</li>
+<li> <a href="../digital-marketing/" class="slide08"> Marketing <i class="fa fa-caret-down"></i></a>
+<ul>
+<li><a href="../digital-marketing/seo-company" title="Search engine optimization ">SEO</a></li>
+<li><a href="../digital-marketing/social-media-marketing-company" title="Social Media Marketing Agency"> Social Media Marketing </a></li>
+<li><a href="../digital-marketing/content-marketing-strategy-company" title="Content Marketing Strategy services">Content Marketing Strategy</a></li>
+<li><a href="../digital-marketing/email-marketing-company" title="Email Marketing Services">Email Marketing</a></li>
+<li><a href="../digital-marketing/ppc-conversiton-rate-optz-company" title="pay per click services">PPC/Conversion Rate Optz</a></li>
+<li><a href="../digital-marketing/local-marketing-company" title="Local Marketing Services">Local Listing</a></li>
+<li><a href="../digital-marketing/lead-generation-company" title="Lead Generation services">Lead Generation</a></li>
+<li><a href="../digital-marketing/customer-acquasition-company" title="Customer Acquisition services">Customer Acquisition</a></li>
+<li><a href="../digital-marketing/growth-hacking" title="Growth Hacking services">Growth Hacking</a></li>
+</ul>
+</li>
+<li> <a href="../technical-writing/" class="slide08"> Content <i class="fa fa-caret-down"></i></a>
+<ul>
+<li><a href="../technical-writing/technical-documentaion-services-company" title="User Technical Documentation Services">User &amp; Technical Documentation Services</a></li>
+<li><a href="../technical-writing/website-content-company" title="Website Content Writing">Website Content Writing</a></li>
+<li><a href="../technical-writing/software-project-documentation-company" title="Software Project Documentation services">Software Project Documentation</a></li>
+<li><a href="../technical-writing/training-materials-company" title="contact for Training Material">Training Material</a></li>
+<li><a href="../technical-writing/pre-sales-sales-marketing-communication-company" title="Pre Sales and Marketing Communication services">Pre-Sales, Sales, &amp; Marketing Communication</a></li>
+<li><a href="../technical-writing/slogan-writing-tagline-writing-company" title="Slogan Writing Services">Slogan Writing</a></li>
+<li><a href="../technical-writing/blog-writing-company" title="Blog Writing services">Blog Writing</a></li>
+<li><a href="../technical-writing/newsletter-and-email-writing-company" title="Newsletter and Email Writing Services">Newsletter and Email Writing</a></li>
+<li><a href="../technical-writing/proof-reading-and-editing-company" title="Proof Reading and Editing services">Proof Reading &amp; Editing</a></li>
+<li><a href="../technical-writing/hiring-content-writer" title="Hire our Content Writers">Hire Content Writers</a></li>
+</ul>
+</li>
+<li> <a href="../mobile/" class="slide08"> Mobile <i class="fa fa-caret-down"></i></a>
+<ul>
+<li><a href="../web-development/android-mobile-app-development-company" title="Android Application Development company">Android App Development</a></li>
+<li><a href="../web-development/ios-mobile-app-development-company" title="IOS Application Development company">IOS App Development</a></li>
+</ul>
+</li>
+<li> <a onclick="window.location='../careers/';" title="careers">Careers</a></li>
+<li> <a href="#" class="slide08"> Insights <i class="fa fa-caret-down"></i></a>
+<ul>
+<li><a href="../insights/blog/" title="web design development Blogs">Blog</a></li>
+<li><a href="../insights/news/" title="web design company news ">News / Achievements</a></li>
+<li><a href="../insights/knowledge-center/" title="design and development Knowledge Center">Knowledge Center</a></li>
+</ul>
+</li>
+<li> <a onclick="window.location='../portfolio/';" class="slide08" title="web design and web development works">Clients Portfolio</a> </li>
+<li> <a href="https://www.inovies.com/contact/web-design-development-agency" class="slide08"> Contact <i class="fa fa-caret-down"></i></a>
+<ul>
+<li> <a href="https://www.inovies.com/contact/web-design-development-enquiry" title="web design development company cost">Quick Enquiry</a></li>
+<li><a href="https://www.inovies.com/contact/web-design-development-agency" title="contact web design development company">Reach Us</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="defaultmenu topbar" class="navbar-collapse collapse ">
+<ul class="nav navbar-nav topnav">
+<li class="dropdown w3_megamenu-fw "><a href="../digital-marketing/">Digital Marketing</a></li>
+<li class="dropdown w3_megamenu-fw "><a href="../web-design/">Design</a></li>
+<li class="dropdown w3_megamenu-fw "><a href="../web-development/">Development</a></li>
+<li class="dropdown w3_megamenu-fw "><a href="../mobile/">Mobile </a></li>
+<li> <a href="../careers/" title="join webdevelopment company">Careers</a> </li>
+<li> <a href="../portfolio/" title="web design and web development works">Client Portfolio</a> </li>
+<li class="dropdown w3_megamenu-fw "><a href="https://www.inovies.com/contact/web-design-development-enquiry">Contact</a></li>
+<li><a class=" hidden-xs hidden-sm" href="javascript:;" id="scrollToBottom" title="website navigation"> <img src="../svg/bars.svg" width="35" height="22.37" alt="website navigation design"></a></li>
+</ul>
+</div>
+</nav>
+</header>
+<div class="quick-enquiry"><a href="https://www.inovies.com/contact/web-design-development-enquiry" title="web design development enquiry"> <img src="../svg/quick-enquiry.svg" data="../svg/quick-enquiry.svg" type="image/svg+xml" width="150" height="32" alt="web design development cost" /> </a></div>
+<script src="https://code.jquery.com/jquery-3.5.0.slim.min.js"></script>
+<title>Landing Page Designing Agency Hyderabad</title>
+<meta name="description" content="Elevate your conversion rates with our landing page design agency in Hyderabad. We specialize in creating high-impact, results-driven landing pages for your business." />
+<meta property="og:title" content="Landing Page Designing Agency Hyderabad">
+<meta property="og:description" content="Elevate your conversion rates with our landing page design agency in Hyderabad. We specialize in creating high-impact, results-driven landing pages for your business.">
+<meta property="og:url" content="https://www.inovies.com/web-design/landing-page-company" />
+<meta property="og:image" content="https://www.inovies.com/images/landing-page-design-company.webp" />
+<link rel="canonical" href="https://www.inovies.com/web-design/landing-page-company" />
+</head>
+<body>
+<section class="content main">
+<div class="invhyd-sectioned">
+<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(../images/landing-page-design-company.webp); display: flex; background-position: 0px 0px !important; " title="Landing Page Design Company">
+
+<div class="heading_title">
+
+<small class="text-center">
+</small>
+</div></div>
+<div class="row">
+<div class="col-md-12">
+<div class="top-strip">
+<small class="text-center">
+<ol class="bred-list">
+<li><a href="https://www.inovies.com">Home</a></li>
+<li><a href="../web-design">Design</a></li>
+<li>Landing Page Design </li>
+</ol>
+</small>
+</div>
+</div>
+</div>
+<div class="invhyd-container">
+<div class="inner-page text-left">
+<div class="sec_body">
+<h1 class="text-center">Landing Page Design Company</h1>
+<h2>Get your website esteemed at the first sight </h2>
+<p>The first page of your website plays the key role to attract users at first sight. It is also known as the “Landing page” of the website. The landing page decides your customers’ interest to have a deep look into the content.
+<img src="../svg/website-esteemed-at-the-first-sight.svg" alt="best landing page design company" style="height:300px; margin: 5px;" class="pull-right">
+</p>
+<p>
+The moment users clicks on your website link, they are redirected first to the landing page, which shall include all the captivated information about your business purpose. The more attractive is your landing page, the more users would be entranced to the site. We cater interactive design to produce with a manifested landing page. We focus on doing optimized design, lead generation and creation services that makes your web presence stronger than ever.
+</p>
+<h3>
+Landing pages to double your sales!!
+</h3>
+<p>
+landing pages is the first impression of your business which a customer notices.With a quick eye ball of a page, most visitors decide whether its the page for them or not. Hence a landing page that captivates a visitors attention is a hot cake.</p><p> Our landing pages are handcrafted by finest direct-response and online marketers, not the web designers who specalize in beautifying things. We have rigorous focus on the data and user experience</p><p> .We deliver exceptional landing page designs to grow your clients and business. Landing Pages is a indespensable collection of added website pages with a sharp focus on converting browsers into potential buyers. They act as a array of web hooks for your business, sitting online waiting for people to find them. We provide you with click through or lead generation landing pages that navigate your customers towards making a commitment to your business. Most website visitors have a series of queries which need immediate attention, they must have answered within seconds.
+</p>
+<h2>Why to get a Landing Page? </h2>
+<p>
+<img src="../svg/get-landing-page.svg" alt="get landing page design" style="height:300px; margin-right: 10px;" class="pull-left">
+Businesses that show interests to invest in PPC and SEO for their digital marketing, must need landing pages in specific to the advertisement links they publish online. Directing the site visitors your homepages via ad links would lead to low rate of conversions. This is why today businesses are more focusing on landing pages.</p>
+<p>We do the best design of your website’s landing page with engrossing highly engaging header for the designed page, which helps in engaging your visitors getting glued to the website.</p>
+<h3>High Converting Landing Page Design </h3>
+<p>We make sure that all your landing pages have all the essential design features that successfully convert viewers to users. A consolidated mix of elements exist in every great landing page. Important features that ramp, embody into landing pages that contribute to the success of conversion include</p>
+<ul>
+<li> Persuasive headlines and subheadings that reach out customers. A catchy headline grabs the attention of customers, is the first point of call for an effective landing page. Headings and subheadings are very critical as visitors first cast their eyes and determine whether or not the page has the content they’re looking for. A brief but informative headline communicates to customers needs will hold them to read on. </li>
+<li> Images are an integral part of any landing page. Without any visual content than a landing page seems monotonous and doesn’t inspire the customer further.</li>
+<li> Value proposition</li>
+<li> Fear of missing out</li>
+<li> Call to action</li>
+</ul>
+<h4>Dynamic Landing Pages </h4>
+<p>
+What’s the point of having a landing page that doesn’t feel uniquely yours? It doesn’t inspire your customers and doesn’t properly reflect your business. We see to it that, your landing page is unique to your business. With customisable landing pages that can be amended to suit current campaigns and changes in style . Inovies offers flexible solutions that change in order to focus on reaching excellent landing pages.
+</p>
+<h4>Form Optimisation </h4>
+<p>Forms are stereotype; but an essential component of any landing page. We create easy to digest forms which customers won’t frown at . The quicker the better . That means your directing people only towards the details you need for lead generation purposes.</p>
+<h5>
+Lead Funnel Optimisation
+</h5>
+<p>
+You ought to keep users moving through the funnel. With a coordinated content, anticipation and a seamless user experience you can guide users in the direction they need to go in order to be converted. By minimizing the friction in the process of signing up, we focus on the components that influence tenacity in users decisions.
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<style type="text/css">
+	
+.fh5co-cover { 
+    background-size: cover;
+    min-height: 420px;
+    position: relative;
+  background-attachment: fixed;
+    display: flex;    background-size: 105%;
+    justify-content: center;
+    align-items: center;
+    background-position: center !important;
+}
+	
+	
+.fh5co-hero {
+    position: relative;
+    display: flex;
+    width: 100%; 
+    height: 70vh;
+    min-height: 420px;
+    justify-content: center;
+    vertical-align: middle;
+}
+.heading_title{ background:none !important;}
+	.overly{ background: rgba(0, 59, 89, 0.2); position:absolute; width: 100%; height: 420px;}
+	
+	.fh5co-cover h1{    color: #fff;
+  }
+	
+
+	.top-strip{ background: #f9f9f9; padding: 3px  0px  5px  0px; }	
+	.sec_body h1{ font-weight: normal !important}
+	.sec_body h1:after{
+content: " ";
+    display: block;
+    margin-top: .375em;
+    margin-bottom: .375em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 2px;
+    background-color: #2cbed2;
+	}	
+	
+	
+	@media (min-width: 320px) and (max-width: 767px){
+	.fh5co-cover{
+		background-size: cover;
+  min-height:150px !important; 
+    position: relative;
+    background-attachment:inherit !important; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center !important;
+		
+	}
+		
+		.fh5co-hero { height: auto !important;}
+		.overly{ height: auto !important}
+		
+	}
+	
+</style>
+<style type="text/css">
+			
+			
+			.numberlist {
+				width: 100%;
+			}
+			
+			.numberlist ol {
+				counter-reset: li;
+				list-style: none;
+				*list-style: decimal;
+				padding: 0;
+				margin-bottom: 4em;
+			}
+			
+			.numberlist ol ol {
+				margin: 0 0 0 2em;
+			}
+			
+			.numberlist a {
+				position: relative;
+				display: block;
+				padding: 1em 0em 1em 1em;
+				*padding: .4em;
+				margin: 12px 0;
+				background: #fff4f4;
+				border: 2px solid #dc424e;
+				color: #444;
+				text-decoration: none !important;
+				-moz-border-radius: .3em;
+				-webkit-border-radius: .3em;
+				border-radius: .3em;
+			}
+			
+			.numberlist a:hover {
+				background: #fed55c;
+			}
+			
+			.numberlist a:before {
+				position: absolute;
+				left: -1.3em;
+				top: 50%;
+				margin-top: -1.1em;
+				background: #87ceeb;
+				height: 2em;
+				width: 2em;
+				line-height: 2em;
+				text-align: center;
+				font-weight: bold;
+				-moz-border-radius: 2em;
+				-webkit-border-radius: 2em;
+				border-radius: 2em;
+				color: #FFF;
+			}
+			
+			.helpform_block {
+				margin-top: 0px !important;
+			}
+			
+			.n-btn {
+				font-size: 16px;
+				height: 39px;
+				box-sizing: border-box;
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				justify-content: center;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				align-items: center;
+				border: 1px solid #2cbed2;
+				color: #2cbed2;
+				background-color: #fff;
+				font-family: 'Open Sans', sans-serif;
+				margin-top: 25px;
+				-webkit-transition: color linear .1s;
+				transition: color linear .1s;
+				position: relative;
+				z-index: 0
+			}
+			
+			.n-btn:before {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: #2cbed2;
+				z-index: -1;
+				-webkit-transform: scaleY(0) translateZ(0);
+				transform: scaleY(0) translateZ(0);
+				-webkit-transform-origin: center bottom;
+				-ms-transform-origin: center bottom;
+				transform-origin: center bottom;
+				-webkit-transition: -webkit-transform linear .2s;
+				transition: -webkit-transform linear .2s;
+				transition: transform linear .2s;
+				transition: transform linear .2s, -webkit-transform linear .2s
+			}
+			
+			.n-btn:hover {
+				color: #fff;
+			}
+			
+			.n-btn:hover:before {
+				-webkit-transform: scaleY(1) translateZ(0);
+				transform: scaleY(1) translateZ(0)
+			}
+			
+			.blue-color {
+				color: #f65c68 !important;
+				font-weight: 600 !important;
+			}
+			
+			.inovies-web-services p a strong {
+				font-weight: 600 !important;
+				font-size: 14px;
+			}
+			
+			.inovies-web-services p {
+				color: #000;
+				font-size: 16px;
+			}
+			.blue-bgr{background:url(../images/blue-bgr.webp) no-repeat top center; padding:180px 0px 80px 0px;}
+			.blue-bgr h3{ 
+			text-align: left;
+    padding-left: 100px;
+    color: #fff;
+    font-size: 34px; font-family: open_sanssemibold, Arial, sans-serif;
+    font-weight: 700 !important;
+			}
+			.blue-bgr .client_logo2{
+				    text-align: center;
+    min-height: 118px !important;
+    width: 100% !important;
+    line-height: 110px !important;
+				
+				background: #fff !important;    }
+			.blue-bgr .client_logo2 img{ display: inline-block; text-align: center; vertical-align: middle;}
+			.border-dote{ border: 1px dashed #ff4c65; padding:0px 3px 0px 3px; }
+
+			.owl-buttons .owl-next, div.scrollingHotSpotRightVisible{ display:none;}
+			
+			.scrollerWrapper { overflow: hidden; position: relative; }
+ul.scroller { position: relative; white-space: nowrap; font-size: 0; }
+ul.scroller span.scaption.sc-lt, ul.scroller span.scaption.sc-lb{white-space:normal;}
+ul.scroller li { display: inline-block; display: inline; white-space: normal; vertical-align: middle; padding: 10px; }
+
+		</style>
+<style>
+.magic-radio,
+.magic-checkbox {
+  position: absolute;
+  display: none; }
+.magic-radio[disabled],
+.magic-checkbox[disabled] {
+  cursor: not-allowed; }
+.magic-radio + label,
+.magic-checkbox + label {
+  position: relative;
+  display: block;
+  padding-right: 30px;
+  cursor: pointer;
+  vertical-align: middle; }
+  .magic-radio + label:hover:before,
+  .magic-checkbox + label:hover:before {
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+    animation-name: hover-color; }
+  .magic-radio + label:before,
+  .magic-checkbox + label:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    width:17px;
+    height: 17px;
+    content: '';
+    border: 1px solid #c0c0c0; }
+  .magic-radio + label:after,
+  .magic-checkbox + label:after {
+    position: absolute;
+    display: none;
+    content: ''; }
+.magic-radio[disabled] + label,
+.magic-checkbox[disabled] + label {
+  cursor: not-allowed;
+  color: #e4e4e4; }
+  .magic-radio[disabled] + label:hover, .magic-radio[disabled] + label:before, .magic-radio[disabled] + label:after,
+  .magic-checkbox[disabled] + label:hover,
+  .magic-checkbox[disabled] + label:before,
+  .magic-checkbox[disabled] + label:after {
+    cursor: not-allowed; }
+  .magic-radio[disabled] + label:hover:before,
+  .magic-checkbox[disabled] + label:hover:before {
+    border: 1px solid #e4e4e4;
+    animation-name: none; }
+  .magic-radio[disabled] + label:before,
+  .magic-checkbox[disabled] + label:before {
+    border-color: #e4e4e4; }
+.magic-radio:checked + label:before,
+.magic-checkbox:checked + label:before {
+  animation-name: none; }
+.magic-radio:checked + label:after,
+.magic-checkbox:checked + label:after {
+  display: block; }
+.magic-radio + label:before {
+  border-radius: 50%; }
+.magic-radio + label:after {
+  top: 6px;
+  right: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #3e97eb; }
+.magic-radio:checked + label:before {
+  border: 1px solid #3e97eb; }
+.magic-radio:checked[disabled] + label:before {
+  border: 1px solid #c9e2f9; }
+.magic-radio:checked[disabled] + label:after {
+  background: #c9e2f9; }
+.magic-checkbox + label:before {
+  border-radius: 0px; }
+.magic-checkbox + label:after {
+    top: 1px;
+    right: 5px;
+  box-sizing: border-box;
+  width: 6px;
+  height: 12px;
+  transform: rotate(45deg);
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff;
+  border-top: 0;
+  border-left: 0; }
+.magic-checkbox:checked + label:before {
+  border: #2cbed2;
+  background:#2cbed2; }
+.magic-checkbox:checked[disabled] + label:before {
+  border: #c9e2f9;
+  background: #c9e2f9; }
+ .helpform_block h2.h2_style-book {
+    text-align: center;
+    margin: 0;    color: #fc626e;
+}
+.helpform_block p {
+    text-align: center;
+    line-height: 25px; margin-bottom:2%;
+} 
+.helpform_block .container {
+    width: 1300px;
+}
+.select_service_fea li {
+    text-align: right;    font-size: 16px;
+}
+.help-form-section textarea {
+    height: 120px;
+}
+.help-form-section .form-control{ outline:none;}
+.help-form-section .form-control:focus{ border:1px solid #ccc;}
+.help-form-section .btn-primary{ 
+    width: 100%;
+    border-radius: 0;
+    background: #fa606c;
+    border-bottom: 3px solid rgba(0,0,0,0.2) !important;
+    font-size: 16px;
+    border: none;
+}
+.help-form-section .btn-primary:hover{background:#FED55C;
+    border-bottom: 3px solid rgba(0,0,0,0.2) !important; color:#000 !important; }
+.helpform_block {
+    padding-bottom: 30px; margin-top: 30px;  background: #f9f9f9; border-top:1px solid #eeeeee;
+}
+
+/***---- blog page bg css ----***/
+.blog_main_content{
+    background-color: #fcfbf5;
+}
+
+@media (min-width: 1281px){ .exp-strip{margin-top:3.7%;}}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+  #custom_carousel .controls a small{margin-left:-8px;}
+  #footer li{padding: 4px 6px !important; }
+  .footer-pull-right {width: 72% !important;}
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .footer-pull-right{width:100% !important;margin-top:15px;}
+    .inovies-strip .inv{margin-top:22px;}
+    .carousel .item h3{width:100%;}
+   
+    #custom_carousel .controls a small{font-size:14px;margin-left:-12px;}
+    .invhyd-sectioned .sec_body{padding:0px 15px;}
+    .careers_slider .carousel-indicators li:first-child.active:after{width:37px !important;height:38px !important;}
+    .postions_box li{width:100%;line-height: 23px;}
+    .postions_box li .j_title a{line-height:22px;}
+    .postions_box li .j_vbtn{margin-top:15px;}
+    
+    .vcard{display: inline-table !important;}
+	.org{margin-left: 20% !important;margin-bottom: 10px !important;}
+	span.locality{margin-left:15% !important;}
+	.tel{margin-left:7% !important;}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+     .inovies-strip .inv{margin-top:22px !important;}
+     #custom_carousel .controls a small{margin-left:-10px;font-size:14px;}
+    .footer-pull-right{width:100% !important;margin-top:15px;}
+    .invhyd-sectioned .sec_body{padding:0px 15px;}
+    .careers_slider .carousel-indicators li:first-child.active:after{    width: 48px !important;height: 39px !important;border-radius: 50%;}
+    .postions_box li{width:100%;line-height: 23px;}
+    .postions_box li .j_title a{line-height:22px;}
+    .postions_box li .j_vbtn{margin-top:15px;}
+    .careers_slider .carousel-indicators li{width:7% !important;font-size: 20px!important;}
+}
+</style>
+<section class="helpform_block">
+<div class="container-fluid">
+<div class>
+<h2 class="h2_style-book">How Can We Help You Today?</h2>
+<p><b>Award Winning Web Design</b>, <b>Web Development </b>and <b>Digital Marketing Agency</b>. Since 2009, over 700 happy clients.
+<b>Hyderabad</b> <i> India </i>and <b>Dubai</b>.
+<b>FREE Consultation CALL +91 9908334546.</b> </p>
+<span id="msg"></span>
+<form id="enquiry_from" name="enquiry_from" method="post" enctype="multipart/form-data" autocomplete="off">
+<div class="col-md-4 col-sm-6">
+<div class="select_service_fea">
+<ul>
+<li class="form-group">
+<input class="magic-checkbox" type="checkbox" id="6" value="Digital Marketing" name="option1" checked>
+<label for="6">Digital Marketing</label>
+</li>
+<li class="form-group">
+<input class="magic-checkbox" type="checkbox" id="3" value="eCommerce Development" name="option1">
+<label for="3">eCommerce Development</label>
+</li>
+<li class="form-group">
+<input class="magic-checkbox" type="checkbox" id="1" value="Web Application Development" name="option1">
+<label for="1">Web Application Development</label>
+</li>
+<li class="form-group">
+<input class="magic-checkbox" type="checkbox" id="4" value="Android App Development" name="option1">
+<label for="4">Mobile App Development </label>
+</li>
+<li class="form-group">
+<input class="magic-checkbox" type="checkbox" id="2" value="Website Designing" name="option1">
+<label for="2">Website Designing</label>
+</li>
+<li class="form-group">
+<input class="magic-checkbox" type="checkbox" id="7" value=" Technical / Content Writing " name="option1">
+<label for="7">Technical / Content Writing </label>
+</li>
+<li class="form-group">
+<input class="magic-checkbox" type="checkbox" id="9" value=" Website Audit" name="option1">
+<label for="9">Website Audit </label>
+</li>
+<span id="option1_lbl"></span>
+</li> </ul> </div> </div>
+<div class="col-sm-8">
+<div class="help-form-section">
+<div class="row">
+<div class="col-md-6">
+<div class="form-group">
+<input class="form-control" type="text" placeholder="Name" name="ename" id="ename" data-hj-whitelist>
+</div>
+<span id="ename_lbl"></span>
+</div>
+<div class="col-md-6">
+<div class="form-group">
+<input class="form-control" type="text" placeholder="Organization" id="eorganization" name="eorganization" data-hj-whitelist>
+</div>
+<span id="eorganization_lbl"></span>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="form-group">
+<input class="form-control" type="text" placeholder="Phone" id="ephone" name="ephone" data-hj-whitelist>
+</div>
+<span id="ephone_lbl"></span>
+</div>
+<div class="col-md-6">
+<div class="form-group">
+<input class="form-control" type="text" placeholder="Email" id="eemail" name="eemail" data-hj-whitelist>
+</div>
+<span id="eemail_lbl"></span>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="form-group">
+<select class="select for-rupee valid" aria-invalid="false" style="width: 100%;" id="ebudget" name="ebudget" data-hj-whitelist>
+<option value> Select Your Budget </option>
+<option value="Below 50,000 INR">Below 50,000 INR</option>
+<option value="INR 50,000  - INR 1,00,000"> INR 50,000 - INR 1,00,000 </option>
+<option selected value="INR 1,00,000 - INR 5,00,000"> INR 1,00,000 - INR 5,00,000 </option>
+<option value="INR 5,00,000 - INR 25,00,000"> INR 5,00,000 - INR 25,00,000 </option>
+<option value="INR 25,00,000 and INR 50,00,000"> INR 25,00,000 and INR 50,00,000 </option>
+<option value="INR 50,00,000 and Above"> INR 50,00,000 and Above </option>
+</select>
+</div>
+<span id="ebudget_lbl"></span>
+</div></div>
+<div class="row">
+<div class="col-md-12">
+<div class="form-group">
+<textarea placeholder="Enquiry Details" class="form-control" id="message" name="message" data-hj-whitelist></textarea>
+</div>
+<span id="message_lbl"></span>
+</div></div>
+<div class="row">
+<div class="col-md-12">
+<span id="eflash"></span>
+<button type="submit" class="btn btn-primary" name="esubmit" value="SUBMIT" id="esubmit"> Submit </button>
+</div> </div> </div> </div>
+</form> </div> </div> </section>
+<footer id="footer" class="clearfix">
+<div id="footer-widgets">
+<div class="container-fluid" style="padding:0px 0px 0px 0px;" id="myAnchor">
+<div id="footer-wrapper">
+<div class="col-md-2 footer-yellow">
+<div class="footer-left">
+<h3 class="footer-title">Join with us</h3>
+<ul class="social">
+<li>
+<object data="../svg/careers.svg" type="image/svg+xml" width="25" height="25" title="web design development jobs" loading="lazy">
+</object>
+<a href="../careers/" target="_blank" title="looking for design and development resources"> Careers</a> </li>
+<li>
+<object data="../svg/partners.svg" type="image/svg+xml" width="25" height="25" title="web design development Alliances" loading="lazy">
+</object>
+<a href="../become-a-partner/" title="Inovies Alliances"> Partners</a> </li>
+</ul>
+<h3 class="footer-title">Inovies Clients</h3>
+<ul class="social ">
+<li>
+<object data="../svg/support.svg" type="image/svg+xml" width="25" height="25" title="web design development support" loading="lazy">
+</object>
+<a href="https://www.inovies.com/contact/web-design-development-agency"> Support</a>
+</li> </ul>
+<h3 class="footer-title">Stay Connected</h3>
+<ul class="social">
+<li>
+<object data="../svg/facebook.svg" type="image/svg+xml" width="25" height="25" title="follow us on facebook" loading="lazy"></object>
+<a href="https://www.facebook.com/InoviesGroup/" target="_blank" title="like us on facebook"> Facebook</a> </li>
+<li>
+<object data="../svg/twitter.svg" type="image/svg+xml" width="25" height="25" title="follow us on twitter" loading="lazy">
+</object>
+<a href="https://twitter.com/inovies" target="_blank" title="for Twitter followers"> Twitter</a> </li>
+<li><object data="../svg/youtube.svg" type="image/svg+xml" width="25" height="25" title="watch us on youtube" loading="lazy">
+</object>
+<a href="https://www.youtube.com/channel/UCP5ph63QyKFXo4XH6A0OPcg" target="_blank" title="web design development videos"> Youtube</a> </li>
+<li><object data="../svg/linkedin.svg" type="image/svg+xml" width="25" height="25" title="connect with linkedin" loading="lazy">
+</object><a href="https://www.linkedin.com/company/inovies/" target="_blank" title="web design development professionals"> LinkedIn </a></li>
+<li>
+<object data="../svg/instagram.svg" type="image/svg+xml" width="25" height="25" title="follow us on Instagram" loading="lazy">
+</object>
+<a href="https://www.instagram.com/inovies_official/" target="_blank" title="inovies Instagram"> Instagram</a> </li>
+<li>
+<object data="../svg/pinterest.svg" type="image/svg+xml" width="25" height="25" title="follow us on Pintrest" loading="lazy">
+</object>
+<a href="https://www.pinterest.com/inovies/" target="_blank" title="inovies Pintrest"> Pintrest</a> </li>
+</ul>
+</div>
+</div>
+<div class="col-md-10 footer-links" style="padding:0px 0px 0px 0px;">
+<ul class="contact-list">
+<li class="contact-list__item"> <i class="fa fa-phone contact-list__item__icon" aria-hidden="true"></i> <a href="tel:+91 9908334546" title="web design development sales enquries">+91 9908334546</a>
+</li>
+<li class="contact-list__item"> <i class="fa fa-map-marker contact-list__item__icon" aria-hidden="true"></i> <a href="https://www.inovies.com/contact/web-design-development-agency" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" title="web design development company"> Visit Us</a> </li>
+<li class="contact-list__item"> <i class="fa fa-envelope contact-list__item__icon" aria-hidden="true"></i> <a href="https://www.inovies.com/contact/web-design-development-enquiry" title="mail to web development company"> Mail Us</a> </li>
+</ul>
+<div class="col-sm-6 col-md-3">
+<div id="recent-posts-3" class="widget widgetFooter widget_recent_entries">
+<h4 class="widgettitle"><a href="../digital-marketing/" title="Digital Marketing Agency">Digital Marketing</a></h4>
+<ul>
+<li><a href="../digital-marketing/seo-company" title="Search engine optimization ">SEO</a></li>
+<li><a href="../digital-marketing/social-media-marketing-company" title="Social Media Marketing Agency"> Social Media Marketing </a></li>
+<li><a href="../digital-marketing/content-marketing-strategy-company" title="Content Marketing Strategy services">Content Marketing Strategy</a></li>
+<li><a href="../digital-marketing/email-marketing-company" title="Email Marketing Services">Email Marketing</a></li>
+<li><a href="../digital-marketing/ppc-conversiton-rate-optz-company" title="pay per click services">PPC/Conversion Rate Optz</a></li>
+<li><a href="../digital-marketing/local-marketing-company" title="Local Marketing Services">Local Listing</a></li>
+<li><a href="../digital-marketing/lead-generation-company" title="Lead Generation services">Lead Generation</a></li>
+<li><a href="../digital-marketing/customer-acquasition-company" title="Customer Acquisition services">Customer Acquisition</a></li>
+<li><a href="../digital-marketing/growth-hacking" title="Growth Hacking services">Growth Hacking</a></li>
+</ul>
+</div>
+</div>
+<div class="col-sm-6 col-md-3">
+<div id="recent-posts-3" class="widget widgetFooter widget_recent_entries">
+<h4 class="widgettitle"><a href="../web-development/" title="web development company">Web Development</a></h4>
+<ul>
+<li><a href="../web-development/ecommerce-development-company" title="ecommerce website development company">Ecommerce Development</a></li>
+<li><a href="../web-development/cms-development-company" title="content management system services">CMS development </a></li>
+<li><a href="../web-development/web-development-outsourcing-company" title="Web development outsourcing services">Web development outsourcing</a></li>
+<li><a href="../web-development/android-mobile-app-development-company" title="android mobile application development">Android Mobile App Development</a></li>
+<li><a href="../web-development/ios-mobile-app-development-company" title="IOS mobile application development">IOS Mobile App Development</a></li>
+<li><a href="../web-development/dynamic-website-development-company" title="Dynamic Website Development services">Dynamic Website Development</a></li>
+<li><a href="../web-development/core-php-app-developement-company" title="Core Php App Developement services">Core Php App Developement</a></li>
+<li><a href="../web-development/hire-php-programmer" title="Hire our Php Programmer">Hire Php Programmer</a></li>
+<li><a href="../web-development/hire-database-designers" title="Hire our Database Designer">Hire Database Designer</a></li>
+<li><a href="../web-development/mongodb-development-company" title="Mongo DB">Mongo DB</a></li>
+</ul>
+</div>
+</div>
+<div class="col-sm-6 col-md-3">
+<div id="recent-posts-3" class="widget widgetFooter widget_recent_entries">
+<h4 class="widgettitle"><a href="../web-design/" title="web design development company">Web Designing</a></h4>
+<ul>
+<li><a href="../web-design/website-design-packages" title="website design packages"> Custom Website Design Packages</a></li>
+<li><a href="../web-design/wordpress-website-packages" title="Wordpress Website Packages">Wordpress Website Packages</a></li>
+<li><a href="https://www.inovies.com/web-design/web-application-design-company" title="web designing company in hyderabad"> Web Application Design</a></li>
+<li><a href="../web-design/website-design-company" title="website designing company in-hyderabad">Website Design </a></li>
+<li><a href="../web-design/ecommerce-website-design-company" title="ecommerce services">Ecommerce Website Design </a></li>
+<li><a href="../web-design/logo-design-company" title="logo design services">Logo Design </a></li>
+<li><a href="../web-design/responsive-web-design-company" title="Responsive Web Design Agency"> Responsive Web Design</a></li>
+<li><a href="../web-design/website-redesign-company" title=" Website Redesign services">Website Redesign </a></li>
+<li><a href="../web-design/landing-page-company" title="Landing Page Design services">Landing Page Design </a></li>
+<li><a href="../web-design/website-designers" title=" Hire Our Graphic / UI Designers / Web Designers">Hire Graphic / <i>Web</i> / UI Designer </a></li>
+</ul>
+</div>
+</div>
+<div class="col-sm-6 col-md-3">
+<div id="recent-posts-3" class="widget widgetFooter widget_recent_entries" style="border:none !important;">
+<h4 class="widgettitle"><a href="../web-development-company/" title="about web development company">About</a></h4>
+<ul>
+<li><a href="../web-development-company/company-profile" title=" web design and development company profile">Company Profile </a></li>
+<li><a href="../become-a-partner" title="partner with inovies">Become a Partner / Re-seller </a></li>
+</ul>
+<h4 class="widgettitle"><a href="#" title="web development insights">Insights</a></h4>
+<ul>
+<li><a href="../insights/blog" title="web design development Blogs"> Blog</a></li>
+<li><a href="../insights/news/" title="web design company Blogs">Achievement</a></li>
+<li><a href="../insights/knowledge-center/" title="design and development Knowledge Center">Knowledge Center</a></li>
+</ul>
+<h4 class="widgettitle"><a href="../business-consulting/" title="startup consulting services">Startup Consulting</a></h4>
+<h4 class="widgettitle"><a href="../portfolio/" title="web design and web development works">Portfolio </a></h4>
+<h4 class="widgettitle"><a href="../premium-domains" title="Premium Domains">Premium Domains</a></h4>
+<h4 class="widgettitle"><a href="https://inovies.supersite2.myorderbox.com/" target="_blank" title="Domains Registration">Domain Registration</a></h4>
+<h4 class="widgettitle"><a href="https://www.icann.org/resources/pages/responsibilities-2014-03-14-en" target="_blank" title="ICANN Registrant Rights">ICANN Registrant Rights</a></h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="sub-floor">
+<p style="padding: 20px; margin-bottom: 10px;"> Inovies is a web design, web development, and digital marketing agency with a presence in Hyderabad, India, and Dubai. With a team of over 70+ talented individuals guiding pixels, we proudly hold the title of an award-winning full-stack agency in India. We specialize in offering creative and innovative solutions for brands aiming to expand their businesses online. If you are reading this, then you're on the right site to onboard one of the best web design and creative marketing agencies in India.</p>
+<div class="text-center">
+<div class="row">
+<div class="col-md-12 text-center">
+<div class="text-center" style="text-center">
+<p>
+<div id class="vcard" style="
+">
+<span class="fn n">
+<span class="given-name"></span>
+<span class="additional-name"></span>
+<span class="family-name"></span>
+</span>
+<div class="org">INOVIES &nbsp; </div>
+<a class="email" href="mailto: info@inovies.com"> info@inovies.com</a>
+<div class="adr">
+<div class="street-address">&nbsp; 501, Level 5, Veekay Prime, Patrika Nagar, Madhapur</div>
+<span class="locality"> &nbsp; Hyderabad &nbsp; </span><span class="region"> Telangana &nbsp;</span>
+<span class="postal-code"> 500081 &nbsp; </span>
+<span class="country-name"> India.&nbsp;</span>
+<div class="tel"> +91 9908334546</div>
+</div>
+</div>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sub-footer2">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<p class="text-center"><a id="google_translate_element" class="hidden-xs hidden-sm" style="float:left !important;"></a>
+Locations : <strong>India :</strong>
+<a href="https://www.google.co.in/maps/place/inovies/@17.4462526,78.3789476,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcb915f95d13673:0x7495deed53906602!8m2!3d17.446419!4d78.38111" target="_blank">Hyderabad </a>
+|| <strong>UAE :</strong>
+<a href="https://www.google.co.in/maps/place/Inovies/@25.286455,55.3892623,17z/data=!3m1!4b1!4m5!3m4!1s0x3e5f5c3cce780b51:0x3ba287074eb0c2fb!8m2!3d25.286455!4d55.391451" target="_blank">Dubai </a> </p>
+</div>
+</div>
+</div>
+</div>
+<div class="sub-footer3">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<p class="text-center"><a id="google_translate_element" class="hidden-xs hidden-sm" style="float:left !important;"></a>
+<a href="../terms-and-conditions" title="web design development company Terms and Conditions">Terms and Conditions</a> |
+<a href="../privacy-policy" title="web design development company Privacy Policy">Privacy Policy</a> |
+<a href="../return-policy" title="web design development company return Policy">Refund Policy</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<style type="text/css">
+
+span.fn.n {
+    float: left !important;
+}
+
+.org {
+    float: left;
+    color: #cecece !important;
+    font-size: 16px !important;
+}
+
+a.email {
+    float: left;
+    float: left;
+    color: #cecece !important;
+    font-size: 16px !important;
+}
+
+.street-address {
+    float: left;
+    float: left;
+    color: #cecece !important;
+    font-size: 16px !important;
+}
+
+span.locality {
+    float: left;
+    float: left;
+    color: #cecece !important;
+    font-size: 16px !important;
+}
+
+span.region {
+    float: left;
+    float: left;
+    color: #cecece !important;
+    font-size: 16px !important;
+}
+
+span.postal-code {
+    float: left;
+    float: left;
+    color: #cecece !important;
+    font-size: 16px !important;
+}
+
+span.country-name {
+    float: left;
+    color: #cecece !important;
+    font-size: 16px !important;
+}
+
+.tel {
+    float: left;
+    float: left !important;
+    color: #cecece !important;
+    font-size: 16px !important;
+}
+
+
+    .footer-yellow{background-color:#fed55c; padding-left:0px; padding-right:0px;}
+	.footer-logos{background: #f1f1f1;
+    border-top: 1px solid #dedede;}
+	.footer-logos p{
+	text-align: center;
+    line-height: 25px;
+		margin-bottom: 2%;}
+	
+	
+	.sub-footer2{ background: #191919; line-height: 22px; color:#cecece; font-size: 16px; }
+	.sub-footer2 p{ padding: 3px 0px 3px 0px !important; margin: 0px !important; color: #cecece !important;}
+	.sub-footer2 p a{color: #cecece !important;}
+	.sub-footer2 p a:hover{color: #3ecadd !important;}
+	
+	.sub-footer3{ background: #282929; line-height: 22px; color:#cecece; font-size: 16px; }
+	.sub-footer3 p{ padding: 3px 0px 3px 0px !important; margin: 0px !important; color: #cecece !important;}
+	.sub-footer3 p a{color: #cecece !important;}
+	.sub-footer3 p a:hover{color: #3ecadd !important;}
+	.vcard{
+	        text-align: center;
+    justify-content: center;
+    display: flex; 
+	    
+	}
+	
+	
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" async="true"></script>
+<script type="text/javascript">
+        $(function () {			
+            $('#scrollToBottom').bind("click", function () {
+                $('html, body').animate({ scrollTop: $(document).height() }, 1200);
+                return false;
+            });
+			$(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('#scrollToTop').fadeIn();
+        } else {
+            $('#scrollToTop').fadeOut();
+        }
+    });
+   $('#scrollToTop').bind("click", function () {
+                $('html, body').animate({ scrollTop: 0 }, 1200);
+                return false;
+            });
+        });
+    </script>
+<style type="text/css">
+#scrollToBottom {
+	cursor: pointer;
+	display: inline-block;
+	color: #0090CB;
+	font-size: 16pt;
+	text-align: center;
+	text-decoration: none;
+	z-index: 999999 !important;
+}
+#scrollToTop {
+	cursor: pointer;
+	background-color: #0090CB;
+	height: 28px;
+	width: 28px;
+	color: #fff;
+	position: fixed;
+	bottom: 13px;
+	right: 20px;
+	font-size: 10pt;
+	text-align: center;
+	text-decoration: none;
+	z-index: 999999 !important;
+}
+#scrollToTop fa {
+	color: #fff;
+}
+</style>
+<script>
+$("#showmenu").click(function(e){
+	
+			e.preventDefault();
+			var $div = $('#mobilemenu').attr('class');
+			if($div=='mobilenavright'){
+				$("#change_icon").removeClass("fa fa-align-justify");
+                 $("#change_icon").addClass("fa fa-close");
+		
+			}else{
+                 $("#change_icon").removeClass("fa fa-close");
+                $("#change_icon").addClass("fa fa-align-justify");
+                
+            }
+			
+			
+			$("#mobilemenu").toggleClass("show");
+			$("#showmenu").toggleClass("menuclosebtn");
+		});
+		$(".slide08").click(function(event){
+			
+			event.preventDefault();
+			if($(this).next('ul').length){
+				
+				
+				$(this).next().toggle('fast');
+				$(this).children('i:last-child').toggleClass('fa-caret-down fa-caret-left');
+			}
+		});
+</script>
+<script async type="text/javascript">
+$("#esubmit").click(function(e) {
+		
+	var ename = $("#ename").val();
+	var eorganization = $("#eorganization").val();
+	var ephone = $("#ephone").val();
+	var eemail = $("#eemail").val();
+	var message = $("#message").val();
+	var message = $("#message").val();
+	var ebudget = $("#ebudget").val();
+	
+    var serviceslist=[];
+		   
+	   $('input[name=option1]:checked').each(function(){	
+			  var options_all = $(this).val(); 
+			serviceslist.push(options_all);		 
+	 });
+			
+	var em = /^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,4})$/;
+	
+	var na = /^[a-zA-Z ]*$/;
+	
+	var mo = /^([0-9\(\)\/\+ \-]*)$/;
+	
+// 	var mo = /^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,3})|(\(?\d{2,3}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$/;
+	
+	var or = /^[a-zA-Z 0-9]*$/;	
+	
+	var regadd =/^[A-Za-z0-9\.\-\#\&\,\:\/ ]*$/;
+	
+	 if($("input[name='option1']").is(":checked") == false ){
+		 
+	    $("#option1_lbl").html("<span style='color:red;'>This field is required.</span>").fadeIn().fadeOut(4000);
+		$("#option1").focus();
+		return false;	 
+		 
+	 } else if(ename.length == '') {		
+		 
+		$("#ename_lbl").html("<span style='color:red;'>This field is required.</span>").fadeIn().fadeOut(4000);
+		$("#ename").focus();
+		return false;
+		
+	} else if(!na.test(ename)) {
+		
+		$("#ename_lbl").html("<span style='color:red;'>Special characters and digits not allowed.</span>").fadeIn().fadeOut(4000);
+		$("#ename").focus();
+		return false;
+		
+	} 
+	
+	if(eorganization != ""){
+			
+		if(!or.test(eorganization)) {
+			
+			$("#ename_lbl").html(""); 
+			$("#eorganization_lbl").html("<span style='color:red;'>Special characters and digits not allowed.</span>").fadeIn().fadeOut(4000);
+			$("#eorganization").focus();
+			return false;
+			
+		} 
+		
+	}
+	
+	
+	if(ephone.length == '') {		
+		
+		$("#ename_lbl").html(""); 
+		$("#eorganization_lbl").html(""); 
+		$("#ephone_lbl").html("<span style='color:red;'>This field is required.</span>").fadeIn().fadeOut(4000);
+		$("#ephone").focus();
+		return false;
+		
+	} else if(!mo.test(ephone)) {
+		
+		$("#eorganization_lbl").html(""); 
+		$("#ephone_lbl").html("<span style='color:red;'>Please enter valid mobile number.</span>").fadeIn().fadeOut(4000);
+		$("#ephone").focus();
+		return false;
+		
+	} else if(eemail.length == '') {
+				
+		$("#ephone_lbl").html("");  
+		$("#eemail_lbl").html("<span style='color:red;'>This field is required.</span>").fadeIn().fadeOut(4000);
+		$("#eemail").focus();
+		return false;
+		
+	} else if(!em.test(eemail)) {
+		
+		$("#phone_lbl").html(""); 
+		$("#eemail_lbl").html("<span style='color:red;'>Please enter valid email.</span>").fadeIn().fadeOut(4000);
+		$("#eemail").focus();
+		return false;
+		
+	} else if(ebudget.length == '') {
+				
+		$("#eemail_lbl").html("");  
+		$("#ebudget_lbl").html("<span style='color:red;'>This field is required.</span>").fadeIn().fadeOut(4000);
+		$("#ebudget").focus();
+		return false;
+		
+	} else if(message.length == '') {
+				
+		$("#phone_lbl").html("");  
+		$("#message_lbl").html("<span style='color:red;'>This field is required.</span>").fadeIn().fadeOut(4000);
+		$("#message").focus();
+		return false;
+		
+	} else if(!regadd.test(message)) {
+		
+		$("#phone_lbl").html(""); 
+		$("#message_lbl").html("<span style='color:red;'>Some Special characters not allowed.</span>").fadeIn().fadeOut(4000);
+		$("#message").focus();
+		return false;
+		
+	} else {
+		  
+		           var dataString = "serviceslist="+serviceslist+"&ename="+ename+"&eorganization="+eorganization+"&ephone="+ephone+"&eemail="+eemail+"&message="+message+"&ebudget="+ebudget;
+				   				   
+				  // alert(dataString);				   				   				     
+			// $("#eflash").show();
+					 //$("#eflash").fadeIn(100).html('<img src="careers/btn-ajax-loader.gif" />');
+					  $.ajax({
+					  type: "POST",
+					  url: "https://www.inovies.com/enquiryprocess",
+					  data: dataString,					
+					  cache: false,
+					  success:function(data){
+						  //  alert(data);					  
+					  //$("#eflash").hide();
+					  var tim = data.split('@');
+					  if(tim[0] == 1) {						  
+						 
+						 $("#msg").fadeOut(5000).html(tim[1]);
+						 setTimeout(function(){  window.location.href="https://www.inovies.com/thank-you"; }, 3000);
+												 
+					  } else if(tim[0] == 0){					  
+					 
+						   $("#msg").fadeOut(5000).html(tim[1]);					
+						   						  
+					  }
+					  
+					  $('#enquiry_from')[0].reset();
+					  
+				   }
+				   
+                 });
+				 
+		  return false; 			 
+               		  
+	  }   	  
+});
+</script>
+<script async src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js "></script>
+<script async type="text/javascript">
+	$(document).ready(function(ev){
+    $('#custom_carousel').on('slide.bs.carousel', function (evt) {
+      $('#custom_carousel .controls li.active').removeClass('active');
+      $('#custom_carousel .controls li:eq('+$(evt.relatedTarget).index()+')').addClass('active');
+    })
+});
+	</script>
+<script async>
+function init() {
+var imgDefer = document.getElementsByTagName('img');
+for (var i=0; i<imgDefer.length; i++) {
+if(imgDefer[i].getAttribute('data-src')) {
+imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
+} } }
+window.onload = init;
+</script>
+<script src="https://www.googletagmanager.com/gtag/js?id=G-V1WR1ZT081" defer="true" loading="lazy"></script>
+<script defer="true" loading="lazy">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V1WR1ZT081');
+</script>
+<script defer="true" loading="lazy" type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "jju7mz9rki");
+</script>
+<script defer="true" loading="lazy">
+  console.log('index-page');
+    if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+      .register('../js/service-worker.js')
+      .then(() => console.log('Service worker Registered'))
+      .catch(error => console.log('some error occurred', error));
+  }
+</script>
+</body>
+</html>
